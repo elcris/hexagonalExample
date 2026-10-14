@@ -1,0 +1,1 @@
+microservicio generado con arquitectura hexagonal
