@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: poc-agent-java
+  datasource:
+    url: jdbc:h2:mem:pocagentjava;DB_CLOSE_DELAY=-1
+    username: sa
+    password:
+  sql:
+    init:
+      mode: always
+      schema-locations: classpath:Database/Schema.sql
+  jpa:
+    hibernate:
+      ddl-auto: none
+    generate-ddl: false
+    open-in-view: false
